@@ -1,10 +1,4 @@
-/* 
 
-Foxewedding - Beautiful Wedding html template
-Copyright 2019  www.mutationmedia.net 
-Created by : mutationthemes  
-
-*/
 
 /* Table of Content ================================================== 
 
@@ -800,5 +794,16 @@ h5, .h5 {
 }
 }
 @media (min-width: 1200px) {
+}
+@media (max-width: 768px) {
+    .bg-image {
+        content: url('../assets/img/11.jpg');
+    }
+}
+@media (max-width: 768px) {
+    .bg-image1 {
+        content: url('../assets/img/12.jpg');
+       
+    }
 }
 /*End mediaqueries*/
